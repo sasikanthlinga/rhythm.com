@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First page</title>
+        <link rel="stylesheet" href="first_demo.css" >
+    </head>
+    <body>
+        <center>
+    <h1>Contact Form</h1>
+    <p>Please provide your details below</p>
+    <div class="details">
+        <form method="post" action="first_demo.php" >
+        Name: <input type="text" name="name" required ><br><br>
+        Email: <input type="email" name="email" required> <br><br>
+        Phone: <input type="number" name="phone" required><br><br>
+        Male: <input type="radio" name="gender" value="Male">
+        Female: <input type="radio" name="gender" value="Female">
+        Others: <input type="radio" name="gender">
+        <p><i>Choose the instrument that you are interested</i></p>    
+        Tabla: <input type="radio" name="inst" value="tabla">
+        Dholak: <input type="radio" name="inst" value="dholak" >
+        Rhythm Pad: <input type="radio" name="inst" value="pad" >
+        Congo: <input type="radio" name="inst" value="congo" ><br><br>
+        Comment: <textarea type="text" name="comment" id="comment"></textarea><br><br>
+        <input type="submit" name="SUBMIT" value="submit">
+        </form>
+        </div>
+    </center>
+    </body>
+    
+</html>

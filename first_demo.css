@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    color: black;
+    background-color: lightcoral;
+    border-style: solid;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    color: crimson;
+    font-style: italic;
+    font-size: 20px;
+}
+body{
+    
+    background-color: aqua;
+    background-image: url("https://yt3.googleusercontent.com/BH_Zmnr8g-PyMQL4TRhLtZLe665_IldItV6aTsVX1_nZ5jNlbojK4v6gLuO7F8pSSL4IvwUCjw=s176-c-k-c0x00ffffff-no-rj");
+    background-repeat: no-repeat;
+    background-position: 200px 190px ;
+    background-size: 300px 290px;
+    text-shadow: 1px 1px 1px green;
+}
+.details{
+    border: 1px solid black;
+    
+}
